@@ -1,7 +1,7 @@
 var express = require('express');
 var bodyParser =  require('body-parser');
 
-
+require('./db/connect');
 var app = express();
 
 app.set('views', './app/views');

@@ -14,7 +14,7 @@ module.exports = function (ngModule) {
 
                 $stateProvider
                     .state('root', {
-                        url: '/home',
+                        url: '/',
                         template: require('../components/root/root.tpl.html'),
                         controller: 'rootController',
                         controllerAs: 'rootCtrl'

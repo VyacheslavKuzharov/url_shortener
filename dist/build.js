@@ -46,15 +46,15 @@
 
 	var angular = __webpack_require__(1);
 	var uiRouter = __webpack_require__(3);
-	var modal = __webpack_require__(16);
+	var modal = __webpack_require__(4);
 
 	var ngModule = angular.module('ngUrlShort', [
 	    uiRouter,
 	    modal
 	]);
 
-	__webpack_require__(4)(ngModule);
-	__webpack_require__(8)(ngModule);
+	__webpack_require__(16)(ngModule);
+	__webpack_require__(20)(ngModule);
 
 /***/ },
 /* 1 */
@@ -36455,110 +36455,28 @@
 /* 4 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = function (ngModule) {
-	    __webpack_require__(5)(ngModule);
-	    __webpack_require__(6)(ngModule);
-	};
+	__webpack_require__(5);
+	module.exports = __webpack_require__(9);
+
 
 /***/ },
 /* 5 */
-/***/ function(module, exports) {
-
-	module.exports = function (ngModule) {
-	    ngModule
-	        .constant('CONFIG',
-	            {
-	                APIHost: 'http://localhost:3000'
-	            });
-	};
-
-/***/ },
-/* 6 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = function (ngModule) {
-
-	    ngModule
-	        .config([
-	            '$stateProvider',
-	            '$locationProvider',
-	            '$urlRouterProvider', function(
-	                $stateProvider,
-	                $locationProvider,
-	                $urlRouterProvider) {
-
-	                $urlRouterProvider.otherwise('/');
-	                $locationProvider.html5Mode(true);
-
-	                $stateProvider
-	                    .state('root', {
-	                        url: '/home',
-	                        template: __webpack_require__(7),
-	                        controller: 'rootController',
-	                        controllerAs: 'rootCtrl'
-	                    });
-	            }]);
-	};
-
-/***/ },
-/* 7 */
-/***/ function(module, exports) {
-
-	module.exports = "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col-md-offset-6\">\n            <h1 class=\"qwerty\">{{ rootCtrl.message }}</h1>\n        </div>\n        <div class=\"col-md-4\">\n            <button type=\"button\"\n                    class=\"btn btn-default btn-lg\"\n                    ng-click=\"rootCtrl.openModal()\">\n\n                <span class=\"glyphicon glyphicon-star\" aria-hidden=\"true\"></span> Star\n            </button>\n        </div>\n    </div>\n</div>"
-
-/***/ },
-/* 8 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = function (ngModule) {
-	    __webpack_require__(9)(ngModule);
-	    __webpack_require__(15)(ngModule);
-	};
-
-/***/ },
-/* 9 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = function (ngModule) {
-	    ngModule.directive('toolbar', toolbar);
-
-	    function toolbar() {
-	        __webpack_require__(10);
-	        return {
-	            restrict: 'E',
-	            template: __webpack_require__(14),
-	            scope: {},
-	            controller: toolbarController,
-	            controllerAs: 'toolbarCtrl'
-	        };
-
-	        function toolbarController() {
-	            var self = this;
-
-	            self.greet = 'Directive works!'
-
-	        }
-	    }
-	};
-
-/***/ },
-/* 10 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(11);
+	var content = __webpack_require__(6);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(13)(content, {});
+	var update = __webpack_require__(8)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../../node_modules/css-loader/index.js!./toolbar.css", function() {
-				var newContent = require("!!./../../../../node_modules/css-loader/index.js!./toolbar.css");
+			module.hot.accept("!!./../../../css-loader/index.js!./position.css", function() {
+				var newContent = require("!!./../../../css-loader/index.js!./position.css");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -36568,21 +36486,21 @@
 	}
 
 /***/ },
-/* 11 */
+/* 6 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(12)();
+	exports = module.exports = __webpack_require__(7)();
 	// imports
 
 
 	// module
-	exports.push([module.id, ".tlbar{\n    color: red;\n}", ""]);
+	exports.push([module.id, ".uib-position-measure {\n  display: block !important;\n  visibility: hidden !important;\n  position: absolute !important;\n  top: -9999px !important;\n  left: -9999px !important;\n}\n\n.uib-position-scrollbar-measure {\n  position: absolute !important;\n  top: -9999px !important;\n  width: 50px !important;\n  height: 50px !important;\n  overflow: scroll !important;\n}\n\n.uib-position-body-scrollbar-measure {\n  overflow: scroll !important;\n}", ""]);
 
 	// exports
 
 
 /***/ },
-/* 12 */
+/* 7 */
 /***/ function(module, exports) {
 
 	/*
@@ -36638,7 +36556,7 @@
 
 
 /***/ },
-/* 13 */
+/* 8 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -36890,91 +36808,13 @@
 
 
 /***/ },
-/* 14 */
-/***/ function(module, exports) {
-
-	module.exports = "<h1 class=\"tlbar\">{{toolbarCtrl.greet}}</h1>\n<a ui-sref=\"root\">home</a>"
-
-/***/ },
-/* 15 */
+/* 9 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = function (ngModule) {
-	    ngModule.controller('rootController', rootController);
-
-	    rootController.$inject = ['$uibModal'];
-
-	    function rootController($uibModal) {
-	        var self = this;
-	        self.openModal = openModal;
-
-	        self.message = 'This from angular Ctrl';
-
-	        function openModal() {
-	            $uibModal.open({
-	                animation: true,
-	                template: __webpack_require__(26)
-	            });
-	        }
-	    }
-	};
-
-/***/ },
-/* 16 */
-/***/ function(module, exports, __webpack_require__) {
-
-	__webpack_require__(17);
-	module.exports = __webpack_require__(19);
-
-
-/***/ },
-/* 17 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-
-	// load the styles
-	var content = __webpack_require__(18);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(13)(content, {});
-	if(content.locals) module.exports = content.locals;
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		if(!content.locals) {
-			module.hot.accept("!!./../../../css-loader/index.js!./position.css", function() {
-				var newContent = require("!!./../../../css-loader/index.js!./position.css");
-				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-				update(newContent);
-			});
-		}
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 18 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(12)();
-	// imports
-
-
-	// module
-	exports.push([module.id, ".uib-position-measure {\n  display: block !important;\n  visibility: hidden !important;\n  position: absolute !important;\n  top: -9999px !important;\n  left: -9999px !important;\n}\n\n.uib-position-scrollbar-measure {\n  position: absolute !important;\n  top: -9999px !important;\n  width: 50px !important;\n  height: 50px !important;\n  overflow: scroll !important;\n}\n\n.uib-position-body-scrollbar-measure {\n  overflow: scroll !important;\n}", ""]);
-
-	// exports
-
-
-/***/ },
-/* 19 */
-/***/ function(module, exports, __webpack_require__) {
-
-	__webpack_require__(20);
-	__webpack_require__(22);
-	__webpack_require__(24);
-	__webpack_require__(25);
+	__webpack_require__(10);
+	__webpack_require__(12);
+	__webpack_require__(14);
+	__webpack_require__(15);
 
 	var MODULE_NAME = 'ui.bootstrap.module.modal';
 
@@ -36984,10 +36824,10 @@
 
 
 /***/ },
-/* 20 */
+/* 10 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(21);
+	__webpack_require__(11);
 
 	var MODULE_NAME = 'ui.bootstrap.module.position';
 
@@ -36997,7 +36837,7 @@
 
 
 /***/ },
-/* 21 */
+/* 11 */
 /***/ function(module, exports) {
 
 	angular.module('ui.bootstrap.position', [])
@@ -37623,10 +37463,10 @@
 
 
 /***/ },
-/* 22 */
+/* 12 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(23);
+	__webpack_require__(13);
 
 	var MODULE_NAME = 'ui.bootstrap.module.stackedMap';
 
@@ -37636,7 +37476,7 @@
 
 
 /***/ },
-/* 23 */
+/* 13 */
 /***/ function(module, exports) {
 
 	angular.module('ui.bootstrap.stackedMap', [])
@@ -37695,7 +37535,7 @@
 	  });
 
 /***/ },
-/* 24 */
+/* 14 */
 /***/ function(module, exports) {
 
 	angular.module("uib/template/modal/window.html", []).run(["$templateCache", function($templateCache) {
@@ -37706,7 +37546,7 @@
 
 
 /***/ },
-/* 25 */
+/* 15 */
 /***/ function(module, exports) {
 
 	angular.module('ui.bootstrap.modal', ['ui.bootstrap.stackedMap', 'ui.bootstrap.position'])
@@ -38598,10 +38438,153 @@
 
 
 /***/ },
-/* 26 */
+/* 16 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = function (ngModule) {
+	    __webpack_require__(17)(ngModule);
+	    __webpack_require__(18)(ngModule);
+	};
+
+/***/ },
+/* 17 */
 /***/ function(module, exports) {
 
-	module.exports = "<h1>Hey from modal!</h1>"
+	module.exports = function (ngModule) {
+	    ngModule
+	        .constant('CONFIG',
+	            {
+	                APIHost: 'http://localhost:3000'
+	            });
+	};
+
+/***/ },
+/* 18 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = function (ngModule) {
+
+	    ngModule
+	        .config([
+	            '$stateProvider',
+	            '$locationProvider',
+	            '$urlRouterProvider', function(
+	                $stateProvider,
+	                $locationProvider,
+	                $urlRouterProvider) {
+
+	                $urlRouterProvider.otherwise('/');
+	                $locationProvider.html5Mode(true);
+
+	                $stateProvider
+	                    .state('root', {
+	                        url: '/',
+	                        template: __webpack_require__(19),
+	                        controller: 'rootController',
+	                        controllerAs: 'rootCtrl'
+	                    });
+	            }]);
+	};
+
+/***/ },
+/* 19 */
+/***/ function(module, exports) {
+
+	module.exports = "<div class=\"inner cover\">\n    <h1>URL Shortener</h1>\n\n    <div class=\"row\">\n\n        <div class=\"col-lg-12\">\n            <div class=\"input-group input-group-lg\">\n                <input id=\"url-field\" type=\"text\" class=\"form-control\" placeholder=\"Your original URL here\">\n                <span class=\"input-group-btn\">\n                  <button class=\"btn btn-shorten\" type=\"button\">SHORTEN URL</button>\n                </span>\n            </div>\n        </div>\n\n        <div class=\"col-lg-12\">\n            <div id=\"link\"></div>\n        </div>\n\n    </div>\n</div>"
+
+/***/ },
+/* 20 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = function (ngModule) {
+	    __webpack_require__(21)(ngModule);
+	    __webpack_require__(23)(ngModule);
+	};
+
+/***/ },
+/* 21 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = function (ngModule) {
+	    ngModule.directive('toolbar', toolbar);
+
+	    function toolbar() {
+	        return {
+	            restrict: 'E',
+	            template: __webpack_require__(22),
+	            scope: {},
+	            controller: toolbarController,
+	            controllerAs: 'toolbarCtrl'
+	        };
+
+	        function toolbarController() {
+	            var self = this;
+
+	            self.greet = 'Directive works!'
+
+	        }
+	    }
+	};
+
+/***/ },
+/* 22 */
+/***/ function(module, exports) {
+
+	module.exports = "<h1 class=\"tlbar\">{{toolbarCtrl.greet}}</h1>\n<a ui-sref=\"root\">home</a>"
+
+/***/ },
+/* 23 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = function (ngModule) {
+	    ngModule.controller('rootController', rootController);
+
+	    rootController.$inject = [];
+
+	    function rootController() {
+	        __webpack_require__(24);
+	    }
+	};
+
+/***/ },
+/* 24 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(25);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(8)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../../../node_modules/css-loader/index.js!./main.css", function() {
+				var newContent = require("!!./../../../../node_modules/css-loader/index.js!./main.css");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 25 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(7)();
+	// imports
+
+
+	// module
+	exports.push([module.id, ".btn:focus, .btn-shorten:focus{\n    outline: 0 !important;\n}\n\nhtml,\nbody {\n    height: 100%;\n    background-color: #366ed1;\n}\n\nbody {\n    color: #fff;\n    text-align: center;\n}\n\n.btn-shorten {\n    color: #ffffff;\n    background-color: #F89406;\n    border: none;\n}\n\n.btn-shorten:hover,\n.btn-shorten:focus,\n.btn-shorten:active,\n.btn-shorten.active {\n    color: #ffffff;\n    background-color: #FA8900;\n    border: none;\n}\n\n.site-wrapper {\n    display: table;\n    width: 100%;\n    height: 100%;\n    min-height: 100%;\n}\n\n.site-wrapper-inner {\n    display: table-cell;\n    vertical-align: top;\n}\n\n.main-container {\n    margin-right: auto;\n    margin-left: auto;\n    margin-top: 80px;\n}\n\n.inner {\n    padding: 30px;\n}\n\n.inner h4 {\n    padding-bottom: 30px;\n}\n\n\n.inner h1 {\n    margin-top: 5px;\n}\n\n@media (min-width: 768px) {\n    .main-container {\n        width: 100%;\n    }\n}\n\n@media (min-width: 992px) {\n    .main-container {\n        width: 700px;\n    }\n}", ""]);
+
+	// exports
+
 
 /***/ }
 /******/ ]);

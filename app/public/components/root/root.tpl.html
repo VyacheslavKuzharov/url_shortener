@@ -5,15 +5,15 @@
 
         <div class="col-lg-12">
             <div class="input-group input-group-lg">
-                <input id="url-field" type="text" class="form-control" placeholder="Your original URL here">
+                <input ng-model="url.long_url" id="url-field" type="text" class="form-control" placeholder="Your original URL here">
                 <span class="input-group-btn">
-                  <button class="btn btn-shorten" type="button">SHORTEN URL</button>
+                  <button ng-click="rootCtrl.saveUrl(url)" class="btn btn-shorten" type="button">SHORTEN URL</button>
                 </span>
             </div>
         </div>
 
         <div class="col-lg-12">
-            <div id="link"></div>
+            <div ng-if="rootCtrl.statusError"> {{rootCtrl.statusError}} </div>
         </div>
 
     </div>

@@ -38490,7 +38490,7 @@
 /* 19 */
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"inner cover\">\n    <h1>URL Shortener</h1>\n\n    <div class=\"row\">\n\n        <div class=\"col-lg-12\">\n            <div class=\"input-group input-group-lg\">\n                <input id=\"url-field\" type=\"text\" class=\"form-control\" placeholder=\"Your original URL here\">\n                <span class=\"input-group-btn\">\n                  <button class=\"btn btn-shorten\" type=\"button\">SHORTEN URL</button>\n                </span>\n            </div>\n        </div>\n\n        <div class=\"col-lg-12\">\n            <div id=\"link\"></div>\n        </div>\n\n    </div>\n</div>"
+	module.exports = "<div class=\"inner cover\">\n    <h1>URL Shortener</h1>\n\n    <div class=\"row\">\n\n        <div class=\"col-lg-12\">\n            <div class=\"input-group input-group-lg\">\n                <input ng-model=\"url.long_url\" id=\"url-field\" type=\"text\" class=\"form-control\" placeholder=\"Your original URL here\">\n                <span class=\"input-group-btn\">\n                  <button ng-click=\"rootCtrl.saveUrl(url)\" class=\"btn btn-shorten\" type=\"button\">SHORTEN URL</button>\n                </span>\n            </div>\n        </div>\n\n        <div class=\"col-lg-12\">\n            <div ng-if=\"rootCtrl.statusError\"> {{rootCtrl.statusError}} </div>\n        </div>\n\n    </div>\n</div>"
 
 /***/ },
 /* 20 */
@@ -38499,6 +38499,7 @@
 	module.exports = function (ngModule) {
 	    __webpack_require__(21)(ngModule);
 	    __webpack_require__(23)(ngModule);
+	    __webpack_require__(26)(ngModule);
 	};
 
 /***/ },
@@ -38539,10 +38540,22 @@
 	module.exports = function (ngModule) {
 	    ngModule.controller('rootController', rootController);
 
-	    rootController.$inject = [];
+	    rootController.$inject = ['rootService'];
 
-	    function rootController() {
+	    function rootController(rootService) {
 	        __webpack_require__(24);
+
+	        var self = this;
+	        self.saveUrl = saveUrl;
+
+	        function saveUrl (url) {
+	            rootService.saveLongUrl(url.long_url).then(function (response) {
+	                console.log(response.data)
+	                if(response.data.status === 'error')
+	                    self.statusError = response.data.message
+	            });
+
+	        }
 	    }
 	};
 
@@ -38585,6 +38598,27 @@
 
 	// exports
 
+
+/***/ },
+/* 26 */
+/***/ function(module, exports) {
+
+	module.exports = function (ngModule) {
+	    ngModule.factory('rootService', rootService);
+
+	    rootService.$inject = ['$http', 'CONFIG'];
+
+	    function rootService ($http, CONFIG) {
+	        return {
+	            saveLongUrl: saveLongUrl
+
+	        };
+
+	        function saveLongUrl(url) {
+	            return $http.post(CONFIG.APIHost + '/api/v1/shorten', {long_url: url})
+	        }
+	    }
+	};
 
 /***/ }
 /******/ ]);

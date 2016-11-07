@@ -18,6 +18,9 @@ app.use(bodyParser.json());
 var applicationRouter = require('./app/resources/application');
 app.use(applicationRouter);
 
+// Include api module
+app.use(require('./app/api/base'));
+
 app.all('/*', function(req, res) {
     res.redirect('/#' + req.url)
 });

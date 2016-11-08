@@ -5,7 +5,13 @@
 
         <div class="col-lg-12">
             <div class="input-group input-group-lg">
-                <input ng-model="url.long_url" id="url-field" type="text" class="form-control" placeholder="Your original URL here">
+                <input
+                        ng-model="url.long_url"
+                        ng-change="rootCtrl.statusError = false"
+                        id="url-field"
+                        type="text"
+                        class="form-control"
+                        placeholder="Your original URL here">
                 <span class="input-group-btn">
                   <button ng-click="rootCtrl.saveUrl(url)" class="btn btn-shorten" type="button">SHORTEN URL</button>
                 </span>

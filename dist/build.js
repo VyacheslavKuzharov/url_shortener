@@ -38490,7 +38490,7 @@
 /* 19 */
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"inner cover\">\n    <h1>URL Shortener</h1>\n\n    <div class=\"row\">\n\n        <div class=\"col-lg-12\">\n            <div class=\"input-group input-group-lg\">\n                <input ng-model=\"url.long_url\" id=\"url-field\" type=\"text\" class=\"form-control\" placeholder=\"Your original URL here\">\n                <span class=\"input-group-btn\">\n                  <button ng-click=\"rootCtrl.saveUrl(url)\" class=\"btn btn-shorten\" type=\"button\">SHORTEN URL</button>\n                </span>\n            </div>\n        </div>\n\n        <div class=\"col-md-offset-2 col-md-8\" ng-if=\"rootCtrl.statusError\">\n            <div class=\"alert alert-danger\">\n                <strong>{{rootCtrl.statusError}}</strong>\n            </div>\n        </div>\n\n        <div class=\"col-md-offset-2 col-md-8\" ng-if=\"rootCtrl.validUrl\">\n            <div class=\"alert alert-success\">\n                <a href=\"{{rootCtrl.validUrl.long}}\" class=\"alert-link\">{{rootCtrl.validUrl.short}}</a>\n            </div>\n        </div>\n\n    </div>\n</div>"
+	module.exports = "<div class=\"inner cover\">\n    <h1>URL Shortener</h1>\n\n    <div class=\"row\">\n\n        <div class=\"col-lg-12\">\n            <div class=\"input-group input-group-lg\">\n                <input\n                        ng-model=\"url.long_url\"\n                        ng-change=\"rootCtrl.statusError = false\"\n                        id=\"url-field\"\n                        type=\"text\"\n                        class=\"form-control\"\n                        placeholder=\"Your original URL here\">\n                <span class=\"input-group-btn\">\n                  <button ng-click=\"rootCtrl.saveUrl(url)\" class=\"btn btn-shorten\" type=\"button\">SHORTEN URL</button>\n                </span>\n            </div>\n        </div>\n\n        <div class=\"col-md-offset-2 col-md-8\" ng-if=\"rootCtrl.statusError\">\n            <div class=\"alert alert-danger\">\n                <strong>{{rootCtrl.statusError}}</strong>\n            </div>\n        </div>\n\n        <div class=\"col-md-offset-2 col-md-8\" ng-if=\"rootCtrl.validUrl\">\n            <div class=\"alert alert-success\">\n                <a href=\"{{rootCtrl.validUrl.long}}\" class=\"alert-link\">{{rootCtrl.validUrl.short}}</a>\n            </div>\n        </div>\n\n    </div>\n</div>"
 
 /***/ },
 /* 20 */
@@ -38551,8 +38551,10 @@
 	        function saveUrl (url) {
 	            rootService.saveLongUrl(url.long_url).then(function (response) {
 	                if(response.data.status === 'error')
-	                    self.statusError = response.data.message
+	                    return self.statusError = response.data.message;
 
+
+	                self.statusError = false;
 	                self.validUrl = response.data.data;
 	            });
 
@@ -38595,7 +38597,7 @@
 
 
 	// module
-	exports.push([module.id, ".btn:focus, .btn-shorten:focus{\n    outline: 0 !important;\n}\n\nhtml,\nbody {\n    height: 100%;\n    background-color: #366ed1;\n}\n\nbody {\n    color: #fff;\n    text-align: center;\n}\n\n.btn-shorten {\n    color: #ffffff;\n    background-color: #F89406;\n    border: none;\n}\n\n.btn-shorten:hover,\n.btn-shorten:focus,\n.btn-shorten:active,\n.btn-shorten.active {\n    color: #ffffff;\n    background-color: #FA8900;\n    border: none;\n}\n\n.site-wrapper {\n    display: table;\n    width: 100%;\n    height: 100%;\n    min-height: 100%;\n}\n\n.site-wrapper-inner {\n    display: table-cell;\n    vertical-align: top;\n}\n\n.main-container {\n    margin-right: auto;\n    margin-left: auto;\n    margin-top: 80px;\n}\n\n.inner {\n    padding: 30px;\n}\n\n.inner h4 {\n    padding-bottom: 30px;\n}\n\n\n.inner h1 {\n    margin-top: 5px;\n}\n\n@media (min-width: 768px) {\n    .main-container {\n        width: 100%;\n    }\n}\n\n@media (min-width: 992px) {\n    .main-container {\n        width: 700px;\n    }\n}", ""]);
+	exports.push([module.id, ".btn:focus, .btn-shorten:focus{\n    outline: 0 !important;\n}\n\nhtml,\nbody {\n    height: 100%;\n    background-color: #366ed1;\n}\n\nbody {\n    color: #fff;\n    text-align: center;\n}\n\n.alert {\n    margin-top: 10px;\n}\n\n.btn-shorten {\n    color: #ffffff;\n    background-color: #F89406;\n    border: none;\n}\n\n.btn-shorten:hover,\n.btn-shorten:focus,\n.btn-shorten:active,\n.btn-shorten.active {\n    color: #ffffff;\n    background-color: #FA8900;\n    border: none;\n}\n\n.site-wrapper {\n    display: table;\n    width: 100%;\n    height: 100%;\n    min-height: 100%;\n}\n\n.site-wrapper-inner {\n    display: table-cell;\n    vertical-align: top;\n}\n\n.main-container {\n    margin-right: auto;\n    margin-left: auto;\n    margin-top: 80px;\n}\n\n.inner {\n    padding: 30px;\n}\n\n.inner h4 {\n    padding-bottom: 30px;\n}\n\n\n.inner h1 {\n    margin-top: 5px;\n}\n\n@media (min-width: 768px) {\n    .main-container {\n        width: 100%;\n    }\n}\n\n@media (min-width: 992px) {\n    .main-container {\n        width: 700px;\n    }\n}", ""]);
 
 	// exports
 

@@ -13,6 +13,10 @@ body {
     text-align: center;
 }
 
+.alert {
+    margin-top: 10px;
+}
+
 .btn-shorten {
     color: #ffffff;
     background-color: #F89406;

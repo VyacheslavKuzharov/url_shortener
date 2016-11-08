@@ -26,12 +26,12 @@ router.post('/shorten', function (req, res) {
         Url.findOne({long_url: longUrl}, function (err, doc){
             if (doc){
                 // since the document exists, we return it without creating a new entry
-                res.json(apiHandler.success({long: doc.long_url, short: doc.short_url}));
+                res.json(apiHandler.success({long: doc.long_url, short: config.webhost + doc.encoded_hash}));
             } else {
-                Url.create({long_url: longUrl, short_url: config.webhost + urlHandler.createHash(8)}, function (err, data) {
+                Url.create({long_url: longUrl, encoded_hash: urlHandler.createHash(8)}, function (err, data) {
                     if (err) { return apiHandler.throwError(err); }
                     else {
-                        res.json(apiHandler.success({long: data.long_url, short: data.short_url}));
+                        res.json(apiHandler.success({long: data.long_url, short: config.webhost + data.encoded_hash}));
                     }
                 });
             }

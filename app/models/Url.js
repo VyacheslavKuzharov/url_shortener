@@ -2,7 +2,7 @@ var mongoose = require('mongoose');
 
 var UrlSchema = new mongoose.Schema({
     long_url: String,
-    short_url: String,
+    encoded_hash: String,
     created_at: { type: Date, default: Date.now }
 });
 

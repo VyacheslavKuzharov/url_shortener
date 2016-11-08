@@ -337,3 +337,122 @@ TypeError: Parameter "url" must be a string, not undefined
     at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:280:7
 [0;36mMongoose:[0m urls.findOne({ long_url: [32m'http://stackoverflow.com/questions/24168759/sending-post-parameters-with-postman-doesnt-work-but-sending-get-parameters-do'[39m }, { fields: [90mundefined[39m })
 [0;36mMongoose:[0m urls.insert({ long_url: [32m'http://stackoverflow.com/questions/24168759/sending-post-parameters-with-postman-doesnt-work-but-sending-get-parameters-do'[39m, encoded_hash: [32m'iZDSO1Q8'[39m, _id: ObjectId("5822289dcf339871f4fbc11e"), expire_at: new Date("Wed, 23 Nov 2016 19:33:41 GMT"), created_at: new Date("Tue, 08 Nov 2016 19:33:49 GMT"), __v: [33m0[39m })
+request: /build.js
+request: /css/bootstrap.min.css
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /
+request: /build.js
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /
+request: /api/v1/shorten
+[0;36mMongoose:[0m urls.findOne({ long_url: [32m'http://stackoverflow.com/questions/2047465/how-can-i-delete-a-file-from-git-repo'[39m }, { fields: [90mundefined[39m })
+[0;36mMongoose:[0m urls.insert({ long_url: [32m'http://stackoverflow.com/questions/2047465/how-can-i-delete-a-file-from-git-repo'[39m, encoded_hash: [32m'2xvcx5PK'[39m, _id: ObjectId("58223950bba29d7bdaa13be7"), expire_at: new Date("Wed, 23 Nov 2016 20:44:04 GMT"), created_at: new Date("Tue, 08 Nov 2016 20:45:04 GMT"), __v: [33m0[39m })
+request: /2xvcx5PK
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'2xvcx5PK'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /css/bootstrap.min.css.map
+request: /
+request: /
+request: /css/bootstrap.min.css
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /
+request: /
+request: /css/bootstrap.min.css
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /
+request: /
+request: /css/bootstrap.min.css
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /
+request: /build.min.js
+request: /css/bootstrap.min.css
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /
+request: /build.min.js
+request: /css/bootstrap.min.css
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /
+Error: /home/vk/js_projects/url_shortener/app/views/layouts/application.pug:6:20
+    4|         base(href='/')
+    5|         meta(charset='UTF-8')
+  > 6|         script(src=#{test1})
+--------------------------^
+    7|         link(rel='stylesheet', href='/css/bootstrap.min.css')
+    8|         title URL Shortener
+    9|     body
+
+Syntax Error: Unexpected character '#'
+    at makeError (/home/vk/js_projects/url_shortener/node_modules/pug-error/index.js:32:13)
+    at Lexer.error (/home/vk/js_projects/url_shortener/node_modules/pug-lexer/index.js:58:15)
+    at Lexer.assertExpression (/home/vk/js_projects/url_shortener/node_modules/pug-lexer/index.js:86:12)
+    at Lexer.attrs (/home/vk/js_projects/url_shortener/node_modules/pug-lexer/index.js:1085:18)
+    at Lexer.callLexerFunction (/home/vk/js_projects/url_shortener/node_modules/pug-lexer/index.js:1315:23)
+    at Lexer.advance (/home/vk/js_projects/url_shortener/node_modules/pug-lexer/index.js:1352:15)
+    at Lexer.callLexerFunction (/home/vk/js_projects/url_shortener/node_modules/pug-lexer/index.js:1315:23)
+    at Lexer.getTokens (/home/vk/js_projects/url_shortener/node_modules/pug-lexer/index.js:1371:12)
+    at lex (/home/vk/js_projects/url_shortener/node_modules/pug-lexer/index.js:12:42)
+    at Object.load.string.lex (/home/vk/js_projects/url_shortener/node_modules/pug/lib/index.js:93:27)
+    at Function.loadString [as string] (/home/vk/js_projects/url_shortener/node_modules/pug-load/index.js:44:24)
+    at compileBody (/home/vk/js_projects/url_shortener/node_modules/pug/lib/index.js:80:18)
+    at Object.exports.compile (/home/vk/js_projects/url_shortener/node_modules/pug/lib/index.js:237:16)
+    at handleTemplateCache (/home/vk/js_projects/url_shortener/node_modules/pug/lib/index.js:210:25)
+    at Object.exports.renderFile (/home/vk/js_projects/url_shortener/node_modules/pug/lib/index.js:410:10)
+    at Object.exports.renderFile (/home/vk/js_projects/url_shortener/node_modules/pug/lib/index.js:400:21)
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /
+Error: /home/vk/js_projects/url_shortener/app/views/layouts/application.pug:6:20
+    4|         base(href='/')
+    5|         meta(charset='UTF-8')
+  > 6|         script(src=#{test1})
+--------------------------^
+    7|         link(rel='stylesheet', href='/css/bootstrap.min.css')
+    8|         title URL Shortener
+    9|     body
+
+Syntax Error: Unexpected character '#'
+    at makeError (/home/vk/js_projects/url_shortener/node_modules/pug-error/index.js:32:13)
+    at Lexer.error (/home/vk/js_projects/url_shortener/node_modules/pug-lexer/index.js:58:15)
+    at Lexer.assertExpression (/home/vk/js_projects/url_shortener/node_modules/pug-lexer/index.js:86:12)
+    at Lexer.attrs (/home/vk/js_projects/url_shortener/node_modules/pug-lexer/index.js:1085:18)
+    at Lexer.callLexerFunction (/home/vk/js_projects/url_shortener/node_modules/pug-lexer/index.js:1315:23)
+    at Lexer.advance (/home/vk/js_projects/url_shortener/node_modules/pug-lexer/index.js:1352:15)
+    at Lexer.callLexerFunction (/home/vk/js_projects/url_shortener/node_modules/pug-lexer/index.js:1315:23)
+    at Lexer.getTokens (/home/vk/js_projects/url_shortener/node_modules/pug-lexer/index.js:1371:12)
+    at lex (/home/vk/js_projects/url_shortener/node_modules/pug-lexer/index.js:12:42)
+    at Object.load.string.lex (/home/vk/js_projects/url_shortener/node_modules/pug/lib/index.js:93:27)
+    at Function.loadString [as string] (/home/vk/js_projects/url_shortener/node_modules/pug-load/index.js:44:24)
+    at compileBody (/home/vk/js_projects/url_shortener/node_modules/pug/lib/index.js:80:18)
+    at Object.exports.compile (/home/vk/js_projects/url_shortener/node_modules/pug/lib/index.js:237:16)
+    at handleTemplateCache (/home/vk/js_projects/url_shortener/node_modules/pug/lib/index.js:210:25)
+    at Object.exports.renderFile (/home/vk/js_projects/url_shortener/node_modules/pug/lib/index.js:410:10)
+    at Object.exports.renderFile (/home/vk/js_projects/url_shortener/node_modules/pug/lib/index.js:400:21)
+request: /
+request: /css/bootstrap.min.css
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /
+request: /build.js
+request: /css/bootstrap.min.css
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /css/bootstrap.min.css.map
+request: /

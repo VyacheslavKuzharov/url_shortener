@@ -11,7 +11,8 @@ var Url = require(appRootDir + '/app/models/Url.js');
 module.exports = router;
 
 router.get('/', function (req, res) {
-    res.render('layouts/application');
+    var build = (process.env.NODE_ENV === 'production') ? 'build.min.js' : 'build.js'
+    res.render('layouts/application', {buildType: build});
 });
 
 router.get('/:encoded_hash', function(req, res){

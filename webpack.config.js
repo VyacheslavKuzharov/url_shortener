@@ -1,9 +1,11 @@
+var webpack = require('webpack');
+
 var config = {
   context: __dirname + '/app/public',
     entry: './index.js',
     output: {
         path: __dirname + '/dist',
-        filename: 'build.js'
+        filename: (process.env.NODE_ENV === 'production') ? 'build.min.js' : 'build.js'
     },
     module: {
         loaders: [
@@ -12,6 +14,13 @@ var config = {
         ]
     },
 
+    plugins: [
+        new webpack.DefinePlugin({
+            ON_TEST: process.env.NODE_ENV === 'test'
+        })
+
+    ],
+
     watch: true,
     watchOptions: {
         aggregateTimeout: 100
@@ -19,7 +28,8 @@ var config = {
 };
 
 if(process.env.NODE_ENV === 'production'){
-    config.output.path = __dirname + '/dist'
+    config.output.path = __dirname + '/dist';
+    config.plugins.push(new webpack.optimize.UglifyJsPlugin());
 }
 
 module.exports = config;

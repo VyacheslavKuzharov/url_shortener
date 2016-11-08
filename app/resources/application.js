@@ -17,7 +17,7 @@ router.get('/', function (req, res) {
 router.get('/:encoded_hash', function(req, res){
     var hash = req.params.encoded_hash;
 
-    Url.findOne({encoded_hash: hash}, function (err, doc){
+    Url.findOneAndUpdate({encoded_hash: hash}, { $inc: { count: 1 }}, function (err, doc) {
         if (doc) {
             res.redirect(doc.long_url);
         } else {

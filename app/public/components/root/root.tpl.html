@@ -26,7 +26,10 @@
 
         <div class="col-md-offset-2 col-md-8" ng-if="rootCtrl.validUrl">
             <div class="alert alert-success">
-                <a href="{{rootCtrl.validUrl.long}}" class="alert-link">{{rootCtrl.validUrl.short}}</a>
+                <a ng-click="rootCtrl.detectUsage(rootCtrl.validUrl.short)"
+                   class="alert-link">
+                    {{rootCtrl.validUrl.short}}
+                </a>
             </div>
         </div>
 

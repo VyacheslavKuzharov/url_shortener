@@ -17,6 +17,10 @@ body {
     margin-top: 10px;
 }
 
+.alert-link{
+    cursor: pointer;
+}
+
 .btn-shorten {
     color: #ffffff;
     background-color: #F89406;

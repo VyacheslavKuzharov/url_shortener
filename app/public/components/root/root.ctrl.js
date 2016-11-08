@@ -11,9 +11,10 @@ module.exports = function (ngModule) {
 
         function saveUrl (url) {
             rootService.saveLongUrl(url.long_url).then(function (response) {
-                console.log(response.data)
                 if(response.data.status === 'error')
                     self.statusError = response.data.message
+
+                self.validUrl = response.data.data;
             });
 
         }

@@ -12,8 +12,16 @@
             </div>
         </div>
 
-        <div class="col-lg-12">
-            <div ng-if="rootCtrl.statusError"> {{rootCtrl.statusError}} </div>
+        <div class="col-md-offset-2 col-md-8" ng-if="rootCtrl.statusError">
+            <div class="alert alert-danger">
+                <strong>{{rootCtrl.statusError}}</strong>
+            </div>
+        </div>
+
+        <div class="col-md-offset-2 col-md-8" ng-if="rootCtrl.validUrl">
+            <div class="alert alert-success">
+                <a href="{{rootCtrl.validUrl.long}}" class="alert-link">{{rootCtrl.validUrl.short}}</a>
+            </div>
         </div>
 
     </div>

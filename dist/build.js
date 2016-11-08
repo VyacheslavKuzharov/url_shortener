@@ -38490,7 +38490,7 @@
 /* 19 */
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"inner cover\">\n    <h1>URL Shortener</h1>\n\n    <div class=\"row\">\n\n        <div class=\"col-lg-12\">\n            <div class=\"input-group input-group-lg\">\n                <input ng-model=\"url.long_url\" id=\"url-field\" type=\"text\" class=\"form-control\" placeholder=\"Your original URL here\">\n                <span class=\"input-group-btn\">\n                  <button ng-click=\"rootCtrl.saveUrl(url)\" class=\"btn btn-shorten\" type=\"button\">SHORTEN URL</button>\n                </span>\n            </div>\n        </div>\n\n        <div class=\"col-lg-12\">\n            <div ng-if=\"rootCtrl.statusError\"> {{rootCtrl.statusError}} </div>\n        </div>\n\n    </div>\n</div>"
+	module.exports = "<div class=\"inner cover\">\n    <h1>URL Shortener</h1>\n\n    <div class=\"row\">\n\n        <div class=\"col-lg-12\">\n            <div class=\"input-group input-group-lg\">\n                <input ng-model=\"url.long_url\" id=\"url-field\" type=\"text\" class=\"form-control\" placeholder=\"Your original URL here\">\n                <span class=\"input-group-btn\">\n                  <button ng-click=\"rootCtrl.saveUrl(url)\" class=\"btn btn-shorten\" type=\"button\">SHORTEN URL</button>\n                </span>\n            </div>\n        </div>\n\n        <div class=\"col-md-offset-2 col-md-8\" ng-if=\"rootCtrl.statusError\">\n            <div class=\"alert alert-danger\">\n                <strong>{{rootCtrl.statusError}}</strong>\n            </div>\n        </div>\n\n        <div class=\"col-md-offset-2 col-md-8\" ng-if=\"rootCtrl.validUrl\">\n            <div class=\"alert alert-success\">\n                <a href=\"{{rootCtrl.validUrl.long}}\" class=\"alert-link\">{{rootCtrl.validUrl.short}}</a>\n            </div>\n        </div>\n\n    </div>\n</div>"
 
 /***/ },
 /* 20 */
@@ -38550,9 +38550,10 @@
 
 	        function saveUrl (url) {
 	            rootService.saveLongUrl(url.long_url).then(function (response) {
-	                console.log(response.data)
 	                if(response.data.status === 'error')
 	                    self.statusError = response.data.message
+
+	                self.validUrl = response.data.data;
 	            });
 
 	        }

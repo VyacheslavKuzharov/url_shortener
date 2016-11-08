@@ -2,10 +2,9 @@ var express = require('express');
 var bodyParser =  require('body-parser');
 var fs = require('fs');
 var util = require('util');
-var appRootDir = require('app-root-dir').get();
 
-var logger = require(appRootDir + '/lib/logging');
-var config = require(appRootDir + '/config/config');
+var logger = require(__dirname + '/lib/logging');
+var config = require(__dirname + '/config/config');
 require('./db/connect');
 var app = express();
 

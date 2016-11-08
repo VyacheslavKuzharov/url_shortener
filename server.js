@@ -5,6 +5,7 @@ var util = require('util');
 var appRootDir = require('app-root-dir').get();
 
 var logger = require(appRootDir + '/lib/logging');
+var config = require(appRootDir + '/config/config');
 require('./db/connect');
 var app = express();
 
@@ -36,5 +37,5 @@ app.all('/*', function(req, res) {
 });
 
 
-var listener = app.listen(3000);
+var listener = app.listen(config.devPort || 80);
 console.log('Server listening on port: %s', listener.address().port);

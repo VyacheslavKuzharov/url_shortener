@@ -5,7 +5,7 @@ config.db = {};
 
 if(process.env.NODE_ENV === 'production'){
 
-    config.webhost = 'http://example.com/';
+    config.webhost = 'https://url-shortene.herokuapp.com/';
 
 //------ db config ----------//
 
@@ -16,12 +16,13 @@ if(process.env.NODE_ENV === 'production'){
 
 // Development
 
-config.webhost = 'http://localhost/';
+config.webhost = 'http://localhost:3000/';
+config.devPort = 3000;
 
 //------ db config ----------//
 
-config.db.host = 'host';
-config.db.name = 'name';
+config.db.host = 'localhost';
+config.db.name = 'url_shortener';
 
 config.db.url = 'mongodb://' + config.db.host + '/' + config.db.name;
 

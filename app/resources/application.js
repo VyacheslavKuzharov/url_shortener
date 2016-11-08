@@ -11,7 +11,7 @@ var Url = require(appRootDir + '/app/models/Url.js');
 module.exports = router;
 
 router.get('/', function (req, res) {
-    var build = (process.env.NODE_ENV === 'production') ? 'build.min.js' : 'build.js'
+    var build = (process.env.NODE_ENV === 'production') ? 'build.min.js' : 'build.js';
     res.render('layouts/application', {buildType: build});
 });
 

@@ -6,3 +6,334 @@ request: /favicon.ico
 request: /
 request: /api/v1/shorten
 [0;36mMongoose:[0m urls.findOne({ long_url: [32m'https://nodejs.org/api/fs.html#fs_fs_write_fd_buffer_offset_length_position_callback'[39m }, { fields: [90mundefined[39m })
+request: /api/v1/shorten?long_url=https://www.npmjs.com/package/bootstrap
+TypeError: Parameter "url" must be a string, not undefined
+    at Url.parse (url.js:79:11)
+    at Object.urlParse [as parse] (url.js:73:5)
+    at Object.checkUrl (/home/vk/js_projects/url_shortener/lib/url-handler.js:4:22)
+    at /home/vk/js_projects/url_shortener/app/api/concerns/shorten.js:19:16
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:271:10)
+    at Function.handle (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:312:13)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:280:7
+request: /api/v1/shorten
+[0;36mMongoose:[0m urls.findOne({ long_url: [32m'https://www.npmjs.com/package/bootstrap'[39m }, { fields: [90mundefined[39m })
+[0;36mMongoose:[0m urls.insert({ long_url: [32m'https://www.npmjs.com/package/bootstrap'[39m, encoded_hash: [32m'Tb2YenWU'[39m, _id: ObjectId("5822204b07e54a623d03b7d2"), expire_at: new Date("Wed, 23 Nov 2016 17:55:15 GMT"), created_at: new Date("Tue, 08 Nov 2016 18:58:19 GMT"), __v: [33m0[39m })
+request: /api/v1/shorten?long_url=%22https://www.npmjs.com/package/bootstrap%22
+TypeError: Parameter "url" must be a string, not undefined
+    at Url.parse (url.js:79:11)
+    at Object.urlParse [as parse] (url.js:73:5)
+    at Object.checkUrl (/home/vk/js_projects/url_shortener/lib/url-handler.js:4:22)
+    at /home/vk/js_projects/url_shortener/app/api/concerns/shorten.js:19:16
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:271:10)
+    at Function.handle (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:312:13)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:280:7
+request: /api/v1/shorten
+TypeError: Parameter "url" must be a string, not undefined
+    at Url.parse (url.js:79:11)
+    at Object.urlParse [as parse] (url.js:73:5)
+    at Object.checkUrl (/home/vk/js_projects/url_shortener/lib/url-handler.js:4:22)
+    at /home/vk/js_projects/url_shortener/app/api/concerns/shorten.js:19:16
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:271:10)
+    at Function.handle (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:312:13)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:280:7
+request: /api/v1/shorten
+[0;36mMongoose:[0m urls.findOne({ long_url: [32m'https://www.npmjs.com/package/1'[39m }, { fields: [90mundefined[39m })
+[0;36mMongoose:[0m urls.insert({ long_url: [32m'https://www.npmjs.com/package/1'[39m, encoded_hash: [32m'Ii6Cw4RR'[39m, _id: ObjectId("582221ca07e54a623d03b7d3"), expire_at: new Date("Wed, 23 Nov 2016 17:55:15 GMT"), created_at: new Date("Tue, 08 Nov 2016 19:04:42 GMT"), __v: [33m0[39m })
+request: /api/v1/shorten
+request: /api/v1/shorten
+TypeError: Parameter "url" must be a string, not undefined
+    at Url.parse (url.js:79:11)
+    at Object.urlParse [as parse] (url.js:73:5)
+    at Object.checkUrl (/home/vk/js_projects/url_shortener/lib/url-handler.js:4:22)
+    at /home/vk/js_projects/url_shortener/app/api/concerns/shorten.js:19:16
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:271:10)
+    at Function.handle (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:312:13)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:280:7
+request: /api/v1/shorten?url=http://stackoverflow.com/questions/24168759/sending-post-parameters-with-postman-doesnt-work-but-sending-get-parameters-do
+TypeError: Parameter "url" must be a string, not undefined
+    at Url.parse (url.js:79:11)
+    at Object.urlParse [as parse] (url.js:73:5)
+    at Object.checkUrl (/home/vk/js_projects/url_shortener/lib/url-handler.js:4:22)
+    at /home/vk/js_projects/url_shortener/app/api/concerns/shorten.js:19:16
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:271:10)
+    at Function.handle (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:312:13)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:280:7
+request: /api/v1/shorten?url=%22http://stackoverflow.com/questions/24168759/sending-post-parameters-with-postman-doesnt-work-but-sending-get-parameters-do%22
+TypeError: Parameter "url" must be a string, not undefined
+    at Url.parse (url.js:79:11)
+    at Object.urlParse [as parse] (url.js:73:5)
+    at Object.checkUrl (/home/vk/js_projects/url_shortener/lib/url-handler.js:4:22)
+    at /home/vk/js_projects/url_shortener/app/api/concerns/shorten.js:19:16
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:271:10)
+    at Function.handle (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:312:13)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:280:7
+request: /api/v1/shorten?url=%22http://stackoverflow.com/questions/24168759/sending-post-parameters-with-postman-doesnt-work-but-sending-get-parameters-do%22
+TypeError: Parameter "url" must be a string, not undefined
+    at Url.parse (url.js:79:11)
+    at Object.urlParse [as parse] (url.js:73:5)
+    at Object.checkUrl (/home/vk/js_projects/url_shortener/lib/url-handler.js:4:22)
+    at /home/vk/js_projects/url_shortener/app/api/concerns/shorten.js:19:16
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:271:10)
+    at Function.handle (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:312:13)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:280:7
+request: /api/v1/shorten?long_url=http://stackoverflow.com/questions/24168759/sending-post-parameters-with-postman-doesnt-work-but-sending-get-parameters-do
+TypeError: Parameter "url" must be a string, not undefined
+    at Url.parse (url.js:79:11)
+    at Object.urlParse [as parse] (url.js:73:5)
+    at Object.checkUrl (/home/vk/js_projects/url_shortener/lib/url-handler.js:4:22)
+    at /home/vk/js_projects/url_shortener/app/api/concerns/shorten.js:19:16
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:271:10)
+    at Function.handle (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:312:13)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:280:7
+request: /api/v1/shorten.json?long_url=http://stackoverflow.com/questions/24168759/sending-post-parameters-with-postman-doesnt-work-but-sending-get-parameters-do
+request: /
+request: /api/v1/shorten.json?long_url=http://stackoverflow.com/questions/24168759/sending-post-parameters-with-postman-doesnt-work-but-sending-get-parameters-do
+request: /
+request: /api/v1/shorten.json?long_url=http://stackoverflow.com/questions/24168759/sending-post-parameters-with-postman-doesnt-work-but-sending-get-parameters-do
+request: /
+request: /api/v1/shorten.json?long_url=http://stackoverflow.com/questions/24168759/sending-post-parameters-with-postman-doesnt-work-but-sending-get-parameters-do
+request: /
+request: /api/v1/shorten?long_url=http://stackoverflow.com/questions/24168759/sending-post-parameters-with-postman-doesnt-work-but-sending-get-parameters-do
+TypeError: Parameter "url" must be a string, not undefined
+    at Url.parse (url.js:79:11)
+    at Object.urlParse [as parse] (url.js:73:5)
+    at Object.checkUrl (/home/vk/js_projects/url_shortener/lib/url-handler.js:4:22)
+    at /home/vk/js_projects/url_shortener/app/api/concerns/shorten.js:19:16
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:271:10)
+    at Function.handle (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:312:13)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:280:7
+request: /api/v1/shorten.json?long_url=http://stackoverflow.com/questions/24168759/sending-post-parameters-with-postman-doesnt-work-but-sending-get-parameters-do
+request: /
+request: /api/v1/shorten.json?long_url=http://stackoverflow.com/questions/24168759/sending-post-parameters-with-postman-doesnt-work-but-sending-get-parameters-do
+request: /
+request: /api/v1/shorten?long_url=http://stackoverflow.com/questions/24168759/sending-post-parameters-with-postman-doesnt-work-but-sending-get-parameters-do
+TypeError: Parameter "url" must be a string, not undefined
+    at Url.parse (url.js:79:11)
+    at Object.urlParse [as parse] (url.js:73:5)
+    at Object.checkUrl (/home/vk/js_projects/url_shortener/lib/url-handler.js:4:22)
+    at /home/vk/js_projects/url_shortener/app/api/concerns/shorten.js:19:16
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:271:10)
+    at Function.handle (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:312:13)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:280:7
+request: /api/v1/shorten?long_url=http://stackoverflow.com/questions/24168759/sending-post-parameters-with-postman-doesnt-work-but-sending-get-parameters-do
+TypeError: Parameter "url" must be a string, not undefined
+    at Url.parse (url.js:79:11)
+    at Object.urlParse [as parse] (url.js:73:5)
+    at Object.checkUrl (/home/vk/js_projects/url_shortener/lib/url-handler.js:4:22)
+    at /home/vk/js_projects/url_shortener/app/api/concerns/shorten.js:19:16
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:271:10)
+    at Function.handle (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:312:13)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:280:7
+request: /api/v1/shorten?long_url=http://stackoverflow.com/questions/24168759/sending-post-parameters-with-postman-doesnt-work-but-sending-get-parameters-do
+TypeError: Parameter "url" must be a string, not undefined
+    at Url.parse (url.js:79:11)
+    at Object.urlParse [as parse] (url.js:73:5)
+    at Object.checkUrl (/home/vk/js_projects/url_shortener/lib/url-handler.js:4:22)
+    at /home/vk/js_projects/url_shortener/app/api/concerns/shorten.js:19:16
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:271:10)
+    at Function.handle (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:312:13)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:280:7
+request: /api/v1/shorten
+TypeError: Parameter "url" must be a string, not undefined
+    at Url.parse (url.js:79:11)
+    at Object.urlParse [as parse] (url.js:73:5)
+    at Object.checkUrl (/home/vk/js_projects/url_shortener/lib/url-handler.js:4:22)
+    at /home/vk/js_projects/url_shortener/app/api/concerns/shorten.js:19:16
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:271:10)
+    at Function.handle (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:312:13)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:280:7
+request: /api/v1/shorten
+TypeError: Parameter "url" must be a string, not undefined
+    at Url.parse (url.js:79:11)
+    at Object.urlParse [as parse] (url.js:73:5)
+    at Object.checkUrl (/home/vk/js_projects/url_shortener/lib/url-handler.js:4:22)
+    at /home/vk/js_projects/url_shortener/app/api/concerns/shorten.js:19:16
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:271:10)
+    at Function.handle (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:312:13)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:280:7
+request: /api/v1/shorten.json?url=http://stackoverflow.com/questions/24168759/sending-post-parameters-with-postman-doesnt-work-but-sending-get-parameters-do
+request: /
+request: /
+request: /
+request: /api/v1/shorten?long_url=http://stackoverflow.com/questions/24168759/sending-post-parameters-with-postman-doesnt-work-but-sending-get-parameters-do
+TypeError: Parameter "url" must be a string, not undefined
+    at Url.parse (url.js:79:11)
+    at Object.urlParse [as parse] (url.js:73:5)
+    at Object.checkUrl (/home/vk/js_projects/url_shortener/lib/url-handler.js:4:22)
+    at /home/vk/js_projects/url_shortener/app/api/concerns/shorten.js:18:16
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:271:10)
+    at Function.handle (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:312:13)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:280:7
+request: /api/v1/shorten?long_url=http://stackoverflow.com/questions/24168759/sending-post-parameters-with-postman-doesnt-work-but-sending-get-parameters-do
+TypeError: Parameter "url" must be a string, not undefined
+    at Url.parse (url.js:79:11)
+    at Object.urlParse [as parse] (url.js:73:5)
+    at Object.checkUrl (/home/vk/js_projects/url_shortener/lib/url-handler.js:4:22)
+    at /home/vk/js_projects/url_shortener/app/api/concerns/shorten.js:18:16
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:271:10)
+    at Function.handle (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:312:13)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:280:7
+request: /api/v1/shorten?long_url=http://stackoverflow.com/questions/24168759/sending-post-parameters-with-postman-doesnt-work-but-sending-get-parameters-do
+TypeError: Parameter "url" must be a string, not undefined
+    at Url.parse (url.js:79:11)
+    at Object.urlParse [as parse] (url.js:73:5)
+    at Object.checkUrl (/home/vk/js_projects/url_shortener/lib/url-handler.js:4:22)
+    at /home/vk/js_projects/url_shortener/app/api/concerns/shorten.js:18:16
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:271:10)
+    at Function.handle (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:312:13)
+    at /home/vk/js_projects/url_shortener/node_modules/express/lib/router/index.js:280:7
+[0;36mMongoose:[0m urls.findOne({ long_url: [32m'http://stackoverflow.com/questions/24168759/sending-post-parameters-with-postman-doesnt-work-but-sending-get-parameters-do'[39m }, { fields: [90mundefined[39m })
+[0;36mMongoose:[0m urls.insert({ long_url: [32m'http://stackoverflow.com/questions/24168759/sending-post-parameters-with-postman-doesnt-work-but-sending-get-parameters-do'[39m, encoded_hash: [32m'iZDSO1Q8'[39m, _id: ObjectId("5822289dcf339871f4fbc11e"), expire_at: new Date("Wed, 23 Nov 2016 19:33:41 GMT"), created_at: new Date("Tue, 08 Nov 2016 19:33:49 GMT"), __v: [33m0[39m })

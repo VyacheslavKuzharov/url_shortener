@@ -1,5 +1,4 @@
 var express = require('express');
-var mongoose = require('mongoose');
 var appRootDir = require('app-root-dir').get();
 
 var config = require(appRootDir + '/config/config');
@@ -35,7 +34,6 @@ router.post('/shorten', function (req, res) {
                     }
                 });
             }
-
         });
     });
 });

@@ -1,0 +1,8 @@
+request: /build.js
+request: /css/bootstrap.min.css
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /
+request: /api/v1/shorten
+[0;36mMongoose:[0m urls.findOne({ long_url: [32m'https://nodejs.org/api/fs.html#fs_fs_write_fd_buffer_offset_length_position_callback'[39m }, { fields: [90mundefined[39m })

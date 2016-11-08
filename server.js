@@ -1,11 +1,21 @@
 var express = require('express');
 var bodyParser =  require('body-parser');
+var fs = require('fs');
+var util = require('util');
+var appRootDir = require('app-root-dir').get();
 
+var logger = require(appRootDir + '/lib/logging');
 require('./db/connect');
 var app = express();
 
 app.set('views', './app/views');
 app.set('view engine', 'pug');
+
+
+app.use(function (req, res, next) {
+    logger.trace(req, res);
+    next()
+});
 
 app.use(express.static('app/public'));
 app.use(express.static('node_modules/bootstrap/dist'));

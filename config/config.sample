@@ -1,0 +1,30 @@
+var config = {};
+config.db = {};
+
+// Production
+
+if(process.env.NODE_ENV === 'production'){
+
+    config.webhost = 'http://example.com/';
+
+//------ db config ----------//
+
+    config.db.url = process.env.MONGODB_URI;
+
+    return;
+}
+
+// Development
+
+config.webhost = 'http://localhost/';
+
+//------ db config ----------//
+
+config.db.host = 'host';
+config.db.name = 'name';
+
+config.db.url = 'mongodb://' + config.db.host + '/' + config.db.name;
+
+
+
+module.exports = config;

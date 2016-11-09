@@ -68,7 +68,7 @@ request body {long_url: "http://www.example.com/blabla/blabla"}
     "status": "success",
     "data": {
         "long":"https://www.example.com/blabla/blabla",
-        "short":"http://localhost:3000/Tb2YenWU"
+        "short":"http://www.example.com/Tb2YenWU"
     }
 }
 ```

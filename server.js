@@ -3,8 +3,9 @@ var bodyParser =  require('body-parser');
 var fs = require('fs');
 var util = require('util');
 
-var logger = require(__dirname + '/lib/logging');
-var config = require(__dirname + '/config/config');
+var logger = require('./lib/logging');
+var config = require('./config/config');
+
 require('./db/connect');
 var app = express();
 
@@ -25,16 +26,17 @@ app.use(bodyParser.json());
 
 
 // Include application module
-var applicationRouter = require('./app/resources/application');
-app.use(applicationRouter);
+app.use(require('./app/resources/application'));
 
 // Include api module
 app.use(require('./app/api/base'));
 
-app.all('/*', function(req, res) {
-    res.redirect('/#' + req.url)
-});
+
+// Uncomment when there will be more than one state
+// app.all('/*', function(req, res) {
+//     res.redirect('/#' + req.url)
+// });
 
 
-var listener = app.listen(config.devPort || 80);
+var listener = app.listen(config.web.port);
 console.log('Server listening on port: %s', listener.address().port);

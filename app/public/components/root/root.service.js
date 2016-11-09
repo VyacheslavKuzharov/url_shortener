@@ -1,16 +1,15 @@
 module.exports = function (ngModule) {
     ngModule.factory('rootService', rootService);
 
-    rootService.$inject = ['$http', 'CONFIG'];
+    rootService.$inject = ['$http', '$window'];
 
-    function rootService ($http, CONFIG) {
+    function rootService ($http, $window) {
         return {
             saveLongUrl: saveLongUrl
-
         };
 
         function saveLongUrl(url) {
-            return $http.post(CONFIG.APIHost + '/api/v1/shorten', {long_url: url})
+            return $http.post($window.defaultHost + 'api/v1/shorten', {long_url: url})
         }
     }
 };

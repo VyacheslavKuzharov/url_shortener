@@ -3,8 +3,9 @@ html(lang='en' ng-app='ngUrlShort')
     head
         base(href='/')
         meta(charset='UTF-8')
-        script(src=buildType)
         link(rel='stylesheet', href='/css/bootstrap.min.css')
+        script(src=buildType)
+        script window.defaultHost = "#{nodeEnv}"
         title URL Shortener
     body
         .site-wrapper

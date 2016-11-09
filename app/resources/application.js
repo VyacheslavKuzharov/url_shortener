@@ -12,7 +12,7 @@ module.exports = router;
 
 router.get('/', function (req, res) {
     var build = (process.env.NODE_ENV === 'production') ? 'build.min.js' : 'build.js';
-    res.render('layouts/application', {buildType: build});
+    res.render('layouts/application', {buildType: build, nodeEnv: config.web.host});
 });
 
 router.get('/:encoded_hash', function(req, res){
@@ -22,7 +22,7 @@ router.get('/:encoded_hash', function(req, res){
         if (doc) {
             res.redirect(doc.long_url);
         } else {
-            res.redirect(config.webhost);
+            res.render('layouts/404');
         }
     });
 });

@@ -456,3 +456,652 @@ request: /favicon.ico
 [0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
 request: /css/bootstrap.min.css.map
 request: /
+request: /build.js
+request: /css/bootstrap.min.css
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /daily_digest
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'daily_digest'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /css/bootstrap.min.css
+request: /build.js
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /css/bootstrap.min.css.map
+request: /
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: //api/v1/shorten
+request: /
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /api/v1/shorten
+[0;36mMongoose:[0m urls.findOne({ long_url: [32m'http://stackoverflow.com/questions/5869216/how-to-store-node-js-deployment-settings-configuration-files'[39m }, { fields: [90mundefined[39m })
+[0;36mMongoose:[0m urls.insert({ long_url: [32m'http://stackoverflow.com/questions/5869216/how-to-store-node-js-deployment-settings-configuration-files'[39m, encoded_hash: [32m'aadzUgNb'[39m, _id: ObjectId("5822f5a858f4ff270eac5ab3"), expire_at: new Date("Thu, 24 Nov 2016 10:08:28 GMT"), created_at: new Date("Wed, 09 Nov 2016 10:08:40 GMT"), __v: [33m0[39m })
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'undefined'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+request: /
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+request: /
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+request: /undefined
+request: /
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+request: /undefined
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /undefined
+request: /undefined
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+request: /
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+request: /
+request: /kkjhk
+request: /
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+request: /
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+request: /
+request: /api/v1/shorten
+[0;36mMongoose:[0m urls.findOne({ long_url: [32m'https://codetuts.tech/build-a-url-shortener-node-hapi-js/'[39m }, { fields: [90mundefined[39m })
+[0;36mMongoose:[0m urls.insert({ long_url: [32m'https://codetuts.tech/build-a-url-shortener-node-hapi-js/'[39m, encoded_hash: [32m'9HOpImL1'[39m, _id: ObjectId("5822fdfad2a7552b2821f2ec"), expire_at: new Date("Thu, 24 Nov 2016 10:43:36 GMT"), created_at: new Date("Wed, 09 Nov 2016 10:44:10 GMT"), __v: [33m0[39m })
+request: /9HOpImL1
+request: /
+request: /css/bootstrap.min.css
+request: /build.js
+request: /favicon.ico
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /
+request: /
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /
+request: /api/v1/shorten
+[0;36mMongoose:[0m urls.findOne({ long_url: [32m'https://codetuts.tech/build-a-url-shortener-node-hapi-js/'[39m }, { fields: [90mundefined[39m })
+request: /9HOpImL1
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'9HOpImL1'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /
+request: /api/v1/shorten
+[0;36mMongoose:[0m urls.findOne({ long_url: [32m'https://codetuts.tech/build-a-url-shortener-node-hapi-js/'[39m }, { fields: [90mundefined[39m })
+request: /9HOpImL1
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'9HOpImL1'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'sdfwf'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /assets/stylesheets/404.css
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /
+request: /css/bootstrap.min.css
+request: /build.js
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'sdfwf'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /assets/stylesheets/404.css
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /
+request: /css/bootstrap.min.css
+request: /build.js
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /css/bootstrap.min.css.map
+request: /
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /api/v1/shorten
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /css/bootstrap.min.css
+request: /build.js
+request: /css/bootstrap.min.css.map
+request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+request: /api/v1/shorten

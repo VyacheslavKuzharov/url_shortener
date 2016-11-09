@@ -35,25 +35,39 @@ MongoDB is a free and open-source cross-platform document-oriented database prog
 Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas.
 In Url Shortener we use MongoDB for store original and short url pair.
 
-## API
+## API(version 1)
 
-**Example Request create short url (method POST)**
+**Example Request check api status (method GET)**
 
 ~~~~
-https://url-shortene.herokuapp.com/api/v1/shorten
-request body {long_url: "http://www.example.com/package/bootstrap"}
+https://url-shortene.herokuapp.com/api/v1/status
 ~~~~
 
 **Response**
 
 ```
-#!json
+{
+    "status": "ok",
+    "time": "2016-11-09T14:12:25.162Z",
+    "version": "v1"
+}
+```
 
+**Example Request create short url (method POST)**
+
+~~~~
+https://url-shortene.herokuapp.com/api/v1/shorten
+request body {long_url: "http://www.example.com/blabla/blabla"}
+~~~~
+
+**Response**
+
+```
 {
     "code": 200,
     "status": "success",
     "data": {
-        "long":"https://www.npmjs.com/package/bootstrap",
+        "long":"https://www.example.com/blabla/blabla",
         "short":"http://localhost:3000/Tb2YenWU"
     }
 }
@@ -62,8 +76,6 @@ request body {long_url: "http://www.example.com/package/bootstrap"}
 **Error**
 
 ```
-#!json
-
 {
     "status": "error",
     "message":"Failed to load page, status code: 404"

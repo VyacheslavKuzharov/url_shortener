@@ -1105,3 +1105,19 @@ request: /css/bootstrap.min.css.map
 request: /favicon.ico
 [0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
 request: /api/v1/shorten
+request: /api/v1/shorten
+[0;36mMongoose:[0m urls.findOne({ long_url: [32m'http://stackoverflow.com/questions/29100658/angularjs-input-fields-empty-or-not-validation'[39m }, { fields: [90mundefined[39m })
+[0;36mMongoose:[0m urls.insert({ long_url: [32m'http://stackoverflow.com/questions/29100658/angularjs-input-fields-empty-or-not-validation'[39m, encoded_hash: [32m'HTpfR5pv'[39m, _id: ObjectId("582310da1d314137156039fa"), expire_at: new Date("Thu, 24 Nov 2016 11:57:37 GMT"), created_at: new Date("Wed, 09 Nov 2016 12:04:42 GMT"), __v: [33m0[39m })
+Started GET for request: /css/bootstrap.min.css
+Started GET for request: /build.js
+Started GET for request: /css/bootstrap.min.css.map
+Started GET for request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+Started POST for request: /api/v1/shorten
+Started GET for request: /css/bootstrap.min.css
+Started GET for request: /build.js
+Started GET for request: /css/bootstrap.min.css.map
+Started GET for request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+Started POST for request: /api/v1/shorten
+undefined

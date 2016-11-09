@@ -40,7 +40,7 @@ In Url Shortener we use MongoDB for store original and short url pair.
 **Example Request create short url (method POST)**
 
 ~~~~
-https://www.anaphoraradio.com/api/v1/shorten
+https://url-shortene.herokuapp.com/api/v1/shorten
 request body {long_url: "http://www.example.com/package/bootstrap"}
 ~~~~
 

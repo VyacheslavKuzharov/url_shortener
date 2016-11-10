@@ -27,10 +27,10 @@ router.post('/shorten', function (req, res) {
                 res.json(apiHandler.success({long: doc.long_url, short: config.web.host + doc.encoded_hash}));
             } else {
                 Url.create({long_url: longUrl, encoded_hash: urlHandler.createHash(8)}, function (err, data) {
-                    if (err) { return apiHandler.throwError(err); }
-                    else {
+                    if (err)
+                        res.json(apiHandler.throwError(err));
+                    else
                         res.json(apiHandler.success({long: data.long_url, short: config.web.host + data.encoded_hash}));
-                    }
                 });
             }
         });

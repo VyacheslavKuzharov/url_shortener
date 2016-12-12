@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "angular": "^1.5.8",
+    "angular-restmod": "^1.1.11",
     "angular-ui-bootstrap": "^2.2.0",
     "angular-ui-router": "^0.3.2",
     "app-root-dir": "^1.0.2",

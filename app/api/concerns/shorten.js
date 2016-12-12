@@ -36,3 +36,12 @@ router.post('/shorten', function (req, res) {
         });
     });
 });
+
+
+router.get('/urls', function (req, res) {
+    Url.find(function (err, projects) {
+        if (err) return next(err);
+        res.json(apiHandler.success(projects));
+    });
+
+});

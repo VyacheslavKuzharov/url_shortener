@@ -20,6 +20,8 @@ app.use(function (req, res, next) {
 
 app.use(express.static('app/public'));
 app.use(express.static('node_modules/bootstrap/dist'));
+app.use(express.static('node_modules/angular-restmod/dist'));
+
 app.use(express.static(__dirname + '/dist'));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());

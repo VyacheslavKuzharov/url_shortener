@@ -1131,3 +1131,129 @@ Started POST for request: /api/v1/shorten
 undefined
 [0;36mMongoose:[0m urls.findOne({ long_url: [32m'http://stackoverflow.com/questions/29714416/how-to-check-all-fields-are-empty-in-angularjs'[39m }, { fields: [90mundefined[39m })
 [0;36mMongoose:[0m urls.insert({ long_url: [32m'http://stackoverflow.com/questions/29714416/how-to-check-all-fields-are-empty-in-angularjs'[39m, encoded_hash: [32m'g8U2fjNJ'[39m, _id: ObjectId("58231725bb41743d0913111f"), expire_at: new Date("Thu, 24 Nov 2016 12:21:48 GMT"), created_at: new Date("Wed, 09 Nov 2016 12:31:33 GMT"), __v: [33m0[39m })
+Started GET for request: /css/bootstrap.min.css
+Started GET for request: /build.js
+Started GET for request: /node_modules/angular-restmod/dist/angular-restmod-bundle.min.js
+Started GET for request: /node_modules/angular-restmod/dist/angular-restmod-bundle.min.js
+Started GET for request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+Started GET for request: /css/bootstrap.min.css
+Started GET for request: /css/bootstrap.min.css.map
+Started GET for request: /
+Started GET for request: /css/bootstrap.min.css
+Started GET for request: /build.js
+Started GET for request: /node_modules/angular-restmod/dist/angular-restmod-bundle.min.js
+Started GET for request: /css/bootstrap.min.css.map
+Started GET for request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+Started GET for request: /css/bootstrap.min.css
+Started GET for request: /build.js
+Started GET for request: /node_modules/angular-restmod/dist/angular-restmod-bundle.min.js
+Started GET for request: /css/bootstrap.min.css.map
+Started GET for request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+Started GET for request: /
+Started GET for request: /css/bootstrap.min.css
+Started GET for request: /build.js
+Started GET for request: /node_modules/angular-restmod/dist/angular-restmod-bundle.min.js
+Started GET for request: /css/bootstrap.min.css.map
+Started GET for request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+Started GET for request: /css/bootstrap.min.css
+Started GET for request: /build.js
+Started GET for request: /angular-restmod-bundle.min.js
+Started GET for request: /css/bootstrap.min.css.map
+Started GET for request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+Started GET for request: /api/v1/urls
+[0;36mMongoose:[0m urls.find({}, { fields: [90mundefined[39m })
+Started GET for request: /css/bootstrap.min.css
+Started GET for request: /build.js
+Started GET for request: /angular-restmod-bundle.min.js
+Started GET for request: /css/bootstrap.min.css.map
+Started GET for request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+Started GET for request: /
+Started GET for request: /css/bootstrap.min.css
+Started GET for request: /build.js
+Started GET for request: /angular-restmod-bundle.min.js
+Started GET for request: /css/bootstrap.min.css.map
+Started GET for request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+Started GET for request: /
+Started GET for request: /css/bootstrap.min.css
+Started GET for request: /build.js
+Started GET for request: /angular-restmod-bundle.min.js
+Started GET for request: /css/bootstrap.min.css.map
+Started GET for request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+Started GET for request: /
+Started GET for request: /build.js
+Started GET for request: /css/bootstrap.min.css
+Started GET for request: /angular-restmod-bundle.min.js
+Started GET for request: /css/bootstrap.min.css.map
+Started GET for request: /api/v1/urls
+[0;36mMongoose:[0m urls.find({}, { fields: [90mundefined[39m })
+Started GET for request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+Started GET for request: /css/bootstrap.min.css
+Started GET for request: /build.js
+Started GET for request: /angular-restmod-bundle.min.js
+Started GET for request: /css/bootstrap.min.css.map
+Started GET for request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+Started GET for request: /css/bootstrap.min.css
+Started GET for request: /build.js
+Started GET for request: /angular-restmod-bundle.min.js
+Started GET for request: /css/bootstrap.min.css.map
+Started GET for request: /api/http://localhost:3000/api/v1/urls
+Started GET for request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+Started GET for request: /css/bootstrap.min.css
+Started GET for request: /build.js
+Started GET for request: /angular-restmod-bundle.min.js
+Started GET for request: /css/bootstrap.min.css.map
+Started GET for request: /api/v1/urls
+[0;36mMongoose:[0m urls.find({}, { fields: [90mundefined[39m })
+Started GET for request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+Started GET for request: /
+Started GET for request: /css/bootstrap.min.css
+Started GET for request: /build.js
+Started GET for request: /angular-restmod-bundle.min.js
+Started GET for request: /css/bootstrap.min.css.map
+Started GET for request: /api/v1/urls
+[0;36mMongoose:[0m urls.find({}, { fields: [90mundefined[39m })
+Started GET for request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+Started GET for request: /css/bootstrap.min.css
+Started GET for request: /build.js
+Started GET for request: /angular-restmod-bundle.min.js
+Started GET for request: /css/bootstrap.min.css.map
+Started GET for request: /api/v1/urls
+[0;36mMongoose:[0m urls.find({}, { fields: [90mundefined[39m })
+Started GET for request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+[0;36mMongoose:[0m urls.find({}, { fields: [90mundefined[39m })
+Started GET for request: /css/bootstrap.min.css
+Started GET for request: /build.js
+Started GET for request: /angular-restmod-bundle.min.js
+Started GET for request: /css/bootstrap.min.css.map
+Started GET for request: /api/v1/urls
+[0;36mMongoose:[0m urls.find({}, { fields: [90mundefined[39m })
+Started GET for request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+Started GET for request: /css/bootstrap.min.css
+Started GET for request: /build.min.js
+Started GET for request: /angular-restmod-bundle.min.js
+Started GET for request: /css/bootstrap.min.css.map
+Started GET for request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })
+Started GET for request: /css/bootstrap.min.css
+Started GET for request: /build.js
+Started GET for request: /angular-restmod-bundle.min.js
+Started GET for request: /css/bootstrap.min.css.map
+Started GET for request: /api/v1/urls
+[0;36mMongoose:[0m urls.find({}, { fields: [90mundefined[39m })
+Started GET for request: /favicon.ico
+[0;36mMongoose:[0m urls.findAndModify({ encoded_hash: [32m'favicon.ico'[39m }, [], { [32m'$inc'[39m: { count: [33m1[39m } }, { new: [33mfalse[39m, upsert: [33mfalse[39m })

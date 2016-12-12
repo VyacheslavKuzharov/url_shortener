@@ -4,7 +4,8 @@ var modal = require('angular-ui-bootstrap/src/modal');
 
 var ngModule = angular.module('ngUrlShort', [
     uiRouter,
-    modal
+    modal,
+    'restmod'
 ]);
 
 require('./config')(ngModule);
